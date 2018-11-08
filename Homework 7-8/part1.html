@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Homework №7-8 Tabs</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<style>
+		*{
+				margin: 5px;
+				padding: 0;
+			}
+			.tabs{
+				display: inline-block;
+				vertical-align: top;
+			}
+			.tab{
+				list-style: none;
+				border: 1px solid #eee;
+				border-radius: 5px;
+				width: 100px;
+				height: 50px;
+				text-align: center;
+			}
+			.textBlock{
+				margin: 5px;
+				padding: 10px;
+				height: 143px;
+				width: 300px;
+				overflow-y: scroll;
+				border: 1px solid black;
+				display: inline-block;
+				padding: 10px 10px 10px;
+				margin-top: 10px;
+			}
+			.tabRed{
+				border-color: #f02c0f;
+			}
+
+			.textOne,
+			.textTwo,
+			.textThree{
+				display: none;
+			}
+			.showBlock{
+				display: block;
+			}
+		</style>
+</head>
+
+<body>
+	<ul class="tabs">
+		<li class="tab tabOne">Proin elit</li>
+		<li class="tab tabTwo">Lorem ipsum</li>
+		<li class="tab tabThree">Mauris</li>
+	</ul>
+	<div class="textBlock ">
+		<p class="textOne">Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante.</p>
+		<p class="textTwo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+			dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+			in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+			anim id est laborum.</p>
+
+		<p class="textThree">Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem.</p>
+
+	</div>
+	<script type="text/javascript" src="js/script1.js"></script>
+</body>
+
+</html>

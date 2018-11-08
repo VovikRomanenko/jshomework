@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Homework №7-8 tooltip</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<style>
+		*{
+				margin: 0;
+				padding: 0;
+			}
+			.fform{
+				width: 500px;
+				height: 430px;
+				margin: auto;
+		    margin-top: 50px;
+		    padding-top: 15px;
+				border: 1px solid grey;
+				text-align: center;
+			}
+
+			.btn{
+				margin: 10px;
+			}
+			.info{
+				width: 50%;
+				margin: auto;
+				margin-top: 5px;
+				padding: 5px;
+				border: 1px solid #0bcfd5;
+				box-shadow: 0 0 10px rgba(0,255,255,1);
+				border-radius: 8px;
+				opacity: 0;
+			}
+			.text{
+				font-size: 18px;
+			}
+			.inform{
+				opacity: 1;
+			}
+		</style>
+</head>
+
+<body>
+	<form class="fform">
+		<div class="roww">
+			<p class="text">Firstname</p>
+			<input class="inp inp1" type="text" />
+			<p class="info info1">Please provide your firstname</p>
+			<br>
+		</div>
+		<div class="roww">
+			<p class="text">Lastname</p>
+			<input class="inp inp2" type="text" />
+			<p class="info info2">Please provide your Lastname</p>
+			<br>
+		</div>
+		<div class="roww">
+			<p class="text">Adress</p>
+			<input class="inp inp3" type="text" />
+			<p class="info info3">Your home or work password</p>
+			<br>
+		</div>
+		<input class="btn btn-large btn-success" value="Show help" type="button" />
+	</form>
+
+	<script type="text/javascript" src="js/script2.js"></script>
+</body>
+
+</html>
