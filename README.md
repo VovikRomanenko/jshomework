@@ -1,2 +1,2 @@
 # jshomework
-Домашние задания по курсу GoFrontEnd 
+Домашние задания по JavaScript, курс GoFrontEnd 
